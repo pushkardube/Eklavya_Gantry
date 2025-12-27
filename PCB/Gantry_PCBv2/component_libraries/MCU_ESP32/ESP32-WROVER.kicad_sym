@@ -1,0 +1,343 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ESP32-WROVER" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -101.6 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "ESP32-WROVER" (id 1) (at -101.6 -35.56 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "ESP32-WROVER:XCVR_ESP32-WROVER" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Espressif Systems" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "3.4mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/ESP32-WROVER/Espressif+Systems/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "2.2" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-WROVER/Espressif+Systems/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "ESP32-WROVER" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nBluetooth, WiFi 802.11b/g/n, Bluetooth v4.2 +EDR, Class 1, 2 and 3 Transceiver Module 2.4GHz ~ 2.5GHz Antenna Not Included, I-PEX Surface Mount\n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Espressif Systems" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ESP32-WROVER_0_0"
+      (rectangle (start -101.6 -33.02) (end 101.6 33.02)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at 106.68 -30.48 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 106.68 -30.48 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 106.68 -30.48 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "38"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 106.68 30.48 180.0) (length 5.08)
+        (name "3V3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -106.68 25.4 0) (length 5.08)
+        (name "EN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 17.78 180.0) (length 5.08)
+        (name "SENSOR_VP/GPIO36/ADC1_CH0/RTC_GPIO0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 20.32 180.0) (length 5.08)
+        (name "SENSOR_VN/GPIO39/ADC1_CH3/RTC_GPIO3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 10.16 180.0) (length 5.08)
+        (name "IO34/GPIO34/ADC1_CH6/RTC_GPIO4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 12.7 180.0) (length 5.08)
+        (name "IO35/GPIO35/ADC1_CH7/RTC_GPIO5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 5.08 180.0) (length 5.08)
+        (name "IO32/GPIO32/XTAL_32K_P/ADC1_CH4/TOUCH9/RTC_GPIO9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 7.62 180.0) (length 5.08)
+        (name "IO33/GPIO33/XTAL_32K_N/ADC1_CH5/TOUCH8/RTC_GPIO8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 -2.54 180.0) (length 5.08)
+        (name "IO25/GPIO25/DAC_1/ADC2_CH8/RTC_GPIO6/EMAC_RXD0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 0.0 180.0) (length 5.08)
+        (name "IO26/DAC_2/ADC2_CH9/RTC_GPIO7/EMAC_RXD1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 2.54 180.0) (length 5.08)
+        (name "IO27/GPIO27/ADC2_CH7/TOUCH7/RTC_GPIO17/EMAC_RX_DV"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 -20.32 180.0) (length 5.08)
+        (name "IO14/GPIO14/ADC2_CH6/TOUCH6/RTC_GPIO16/MTMS/HSPICLK/HS2_CLK/SD_CLK/EMAC_TXD2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 -17.78 0) (length 5.08)
+        (name "IO12/GPIO12/ADC2_CH5/TOUCH5/RTC_GPIO15/HSPIQ/HS2_DATA2/SD_DATA2/EMAC_TXD3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 -20.32 0) (length 5.08)
+        (name "IO13/GPIO13/ADC2_CH4/TOUCH4/RTC_GPIO14/MTCK/HSPID/HS2_DATA3/SD_DATA3/EMAC_RX_ER"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 2.54 0) (length 5.08)
+        (name "SHD/SD2*/GPIO9/SD_DATA2/SPIHD/HS1_DATA2/U1RXD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 0.0 0) (length 5.08)
+        (name "SWP/SD3*/GPIO10/SD_DATA3/SPIWP/HS1_DATA3/U1TXD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 -2.54 0) (length 5.08)
+        (name "SCS/CMD*/GPIO11/SD_CMD/SPICS0/HS1_CMD/U1RTS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 12.7 0) (length 5.08)
+        (name "SCK/CLK*/GPIO6/SD_CLK/SPICLK/HS1_CLK/U1CTS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 10.16 0) (length 5.08)
+        (name "SDO/SD0*/GPIO7/SD_DATA0/SPIQ/HS1_DATA0/U2RTS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 7.62 0) (length 5.08)
+        (name "SDI/SD1*/GPIO8/SD_DATA1/SPID/HS1_DATA1/U2CTS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 -17.78 180.0) (length 5.08)
+        (name "IO15/GPIO15/ADC2_CH3/TOUCH3/MTDO/HSPICS0/RTC_GPIO13/HS2_CMD/SD_CMD/EMAC_RXD3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 -10.16 0) (length 5.08)
+        (name "IO2/GPIO2/ADC2_CH2/TOUCH2/RTC_GPIO12/HSPIWP/HS2_DATA0/SD_DATA0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 -7.62 0) (length 5.08)
+        (name "IO0/GPIO0/ADC2_CH1/TOUCH1/RTC_GPIO11/CLK_OUT1/EMAC_TX_CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 -12.7 0) (length 5.08)
+        (name "IO4/GPIO4/ADC2_CH0/TOUCH0/RTC_GPIO10/HSPIHD/HS2_DATA1/SD_DATA1/EMAC_TX_ER"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 -15.24 0) (length 5.08)
+        (name "IO5/GPIO5/VSPICS0/HS1_DATA6/EMAC_RX_CLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 -15.24 180.0) (length 5.08)
+        (name "IO18/GPIO18/VSPICLK/HS1_DATA7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 -12.7 180.0) (length 5.08)
+        (name "IO19/GPIO19/VSPIQ/U0CTS/EMAC_TXD0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 -10.16 180.0) (length 5.08)
+        (name "IO21/GPIO21/VSPIHD/EMAC_TX_EN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 20.32 0) (length 5.08)
+        (name "RXD0/GPIO3/U0RXD/CLK_OUT2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -106.68 17.78 0) (length 5.08)
+        (name "TXD0/GPIO1/U0TXD/CLK_OUT3/EMAC_RXD2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 -7.62 180.0) (length 5.08)
+        (name "IO22/GPIO22/VSPIWP/U0RTS/EMAC_TXD1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 106.68 -5.08 180.0) (length 5.08)
+        (name "IO23/GPIO23/VSPID/HS1_STROBE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "37"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 106.68 -27.94 180.0) (length 5.08)
+        (name "EP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "39"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
