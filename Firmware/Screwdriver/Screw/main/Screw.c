@@ -3,22 +3,27 @@
 #include "freertos/task.h"
 #include "driver/gpio.h"
 
-#define EnablePIN GPIO_NUM_4
-#define PIN1 GPIO_NUM_26
-#define PIN2 GPIO_NUM_27
+// #define EnablePIN GPIO_NUM_4
+// #define PIN1 GPIO_NUM_16
+// #define PIN2 GPIO_NUM_17
+
+#define PIN1 GPIO_NUM_4
+#define PIN2 GPIO_NUM_32
+
+
 
 void app_main(void)
 {
     // Configure GPIOs as outputs
     gpio_config_t io_conf = {
-        .pin_bit_mask = (1ULL << EnablePIN) | (1ULL << PIN1) | (1ULL << PIN2),
+        .pin_bit_mask = (1ULL << PIN1) | (1ULL << PIN2),
         .mode = GPIO_MODE_OUTPUT,
         .pull_up_en = GPIO_PULLUP_DISABLE,
         .pull_down_en = GPIO_PULLDOWN_DISABLE,
         .intr_type = GPIO_INTR_DISABLE
     };
     gpio_config(&io_conf);
-    gpio_set_level(EnablePIN, 1);
+    // gpio_set_level(EnablePIN, 1);
     while (1) {
         // ===== Level 1: All HIGH =====
         printf("Level 1: forward\n");    

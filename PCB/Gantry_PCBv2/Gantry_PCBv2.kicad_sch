@@ -13687,7 +13687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESP-32:ESP32-WROOM-32E__4MB_HIGH_TEMP_"
+		(property "Footprint" "ESP32-WROOM:XCVR_ESP32-WROOM-32E__4MB_HIGH_TEMP_"
 			(at 54.1274 103.9876 0)
 			(effects
 				(font
@@ -13875,7 +13875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8825_STEPPER_MOTOR_DRIVER_CARRIER:IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER"
+		(property "Footprint" "DRV8825_STEPPER_MOTOR_DRIVER_CARRIER (1):IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER"
 			(at 186.69 151.13 0)
 			(effects
 				(font
@@ -16537,7 +16537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Motor Drivers:TB6612FNG"
+		(property "Footprint" "motor_driver:TB6612FNG"
 			(at 256.4892 47.8028 0)
 			(effects
 				(font
@@ -18582,7 +18582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST Connector:2 Pin JST Connector"
+		(property "Footprint" "2 Pin JST_Power&Motors:JST_B2B-XH-A_LF__SN_"
 			(at 171.45 199.39 0)
 			(effects
 				(font
@@ -20051,7 +20051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8825_STEPPER_MOTOR_DRIVER_CARRIER:IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER"
+		(property "Footprint" "DRV8825_STEPPER_MOTOR_DRIVER_CARRIER (1):IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER"
 			(at 186.69 105.41 0)
 			(effects
 				(font
@@ -21119,7 +21119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST Connector:2 Pin JST Connector"
+		(property "Footprint" "2 Pin JST_Power&Motors:JST_B2B-XH-A_LF__SN_"
 			(at 125.73 198.12 0)
 			(effects
 				(font
@@ -21469,7 +21469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST Connector:2 Pin JST Connector"
+		(property "Footprint" "2 Pin JST_Power&Motors:JST_B2B-XH-A_LF__SN_"
 			(at 125.73 210.82 0)
 			(effects
 				(font
@@ -21739,7 +21739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8825_STEPPER_MOTOR_DRIVER_CARRIER:IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER"
+		(property "Footprint" "DRV8825_STEPPER_MOTOR_DRIVER_CARRIER (1):IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER"
 			(at 245.11 106.68 0)
 			(effects
 				(font
@@ -22963,7 +22963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JST Connector:2 Pin JST Connector"
+		(property "Footprint" "2 Pin JST_Power&Motors:JST_B2B-XH-A_LF__SN_"
 			(at 125.73 186.69 0)
 			(effects
 				(font
@@ -23535,7 +23535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8825_STEPPER_MOTOR_DRIVER_CARRIER:IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER"
+		(property "Footprint" "DRV8825_STEPPER_MOTOR_DRIVER_CARRIER (1):IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER"
 			(at 245.11 149.86 0)
 			(effects
 				(font

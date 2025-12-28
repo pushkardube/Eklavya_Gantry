@@ -3,8 +3,8 @@
 #include "driver/gpio.h"
 #include <stdio.h>
 
-#define STEP_PIN GPIO_NUM_22
-#define DIR_PIN  GPIO_NUM_23
+#define STEP_PIN GPIO_NUM_26
+#define DIR_PIN  GPIO_NUM_25
 
 #define STEP_HIGH_TIME_MS 1.9
 #define STEP_TOTAL_TIME_MS 25
